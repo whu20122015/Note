@@ -9,7 +9,7 @@
 将训练集，开发集，测试集替换成相应的文件(vec.txt是怎么获取到的)（已完成）
 处理类似于 No module named tqdm的异常（已完成）
 运行python3 initial.py生成npy文件（已完成）
-运行python3 cnnmodel.py
+运行python3 cnnmodel.py（其中epoch从1开始到4,每次执行完1742条文本）
   train model
   reading wordembedding
   reading training data
