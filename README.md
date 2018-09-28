@@ -18,14 +18,38 @@
   
   然后produce reward sentence_ebd  average_reward for rlmodel（一共执行280579次）
   average_reward = -0.21306534111499786
-运行python3 rlmodel.py（一共执行280579次）
+运行python3 rlmodel.py（一共执行26×280579次）
   chosen sentence size: 224149
   total_reward: -0.24561
   best_reward -0.24561
-  
-  
+
+  select training data
+  326941
+  use the selected data to train cnn model
+  reading wordembedding
+  reading training data
+  epoch 1 loss=0.275411 accuracy=0.950000: 
+  epoch 2 loss=0.260439 accuracy=0.943333: 
+  epoch 3 loss=0.262039 accuracy=0.946667: 
 
 运行python3 cnnrlmodel.py
+
+  epoch: 0
+  chosen sentence size: 326941
+  total_reward: -0.13297
+  best_reward -0.13297
+  average score -0.21285311877727509
+  best score -0.21285311877727509
+  update the rlmodel(一共执行280579次)
+  update the cnnmodel(一共执行1090次)
+  produce new embedding(一共执行280579次)
+  
+there are 522,611 sentences
+, 281,270 entity pairs
+, and 18,252 relational facts in the training data; 
+and 172,448 sentences
+, 96,678 entity pairs 
+and 1,950 relational facts in the test data.
   
   
 
