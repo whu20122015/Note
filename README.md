@@ -69,6 +69,15 @@ and 1,950 relational facts in the test data.
 
 运行联合抽取的程序（这个程序自己之前已经运行过了）
 
+删除usr/bin/python后的恢复方法
+https://blog.csdn.net/shaojunbo24/article/details/48496133
+
+2018-10-06
+1：讲python升级到3.6.5，，，然后继续实验
+2：将联合抽取的数据集转化成强化学习的数据集
+3：抽取出一批数据
+4：用抽取的数据进行实验
+
 
 2018-10-07
 在强化学习抽取的新的数据集上运行联合抽取的程序（可能一周才能有结果）
