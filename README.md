@@ -8,8 +8,15 @@
 工程地址：/home/chenjiafeng/Desktop/TensorFlow_RLRE-master
 将训练集，开发集，测试集替换成相应的文件(vec.txt是怎么获取到的)（已完成）
 处理类似于 No module named tqdm的异常（已完成）
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 运行python3 initial.py生成npy文件（已完成）
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 运行python3 cnnmodel.py（其中epoch从1开始到3,每次执行1742次）
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   train model
   reading wordembedding
   reading training data
@@ -18,7 +25,12 @@
   
   然后produce reward sentence_ebd  average_reward for rlmodel（一共执行280579次）
   average_reward = -0.21306534111499786
+  
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 运行python3 rlmodel.py（一共执行26×280579次）
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
   chosen sentence size: 224149
   total_reward: -0.24561
   best_reward -0.24561
