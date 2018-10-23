@@ -95,3 +95,9 @@ https://blog.csdn.net/shaojunbo24/article/details/48496133
 在强化学习抽取的新的数据集上运行联合抽取的程序（可能一周才能有结果）
 关键点：
 1：强化学习的数据集怎么跟联合抽取的数据集对应起来
+
+
+2018-10-23
+需要把两个词向量文件重新生成一下，起码有一个要重新生成，对照着论文看一下他用的工具
+Pre-Trained Word Vectors are learned from New York Times Annotated Corpus (LDC Data LDC2008T19)
+Entity embeddings are randomly initialized. The number of entities in the entity embedding should be the same with the number of entities in train.txt.
